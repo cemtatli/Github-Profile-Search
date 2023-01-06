@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Profiles Search</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="shortcut icon" href="https://cdn3d.iconscout.com/3d/free/thumb/github-1-5645865-4695723.png"
+        type=" image/x-icon">
+
+</head>
+
+<body class="bg-[#8692f8] text-white w-full h-screen overflow-hidden flex flex-col justify-center items-center md:p-6">
+    <div class="flex items-center justify-center w-full">
+        <div class="chat chat-end w-24 -m-[20px] -mt-[85px]">
+            <div class="chat-bubble bg-indigo-600 text-sm text-white">Let's Search!</div>
+        </div>
+        <div class="flex items-center justify-center w-32">
+            <img src="https://cdn3d.iconscout.com/3d/free/thumb/github-1-5645865-4695723.png" class="w-full h-full"
+                alt="github-logo">
+        </div>
+    </div>
+    <form class="w-full md:max-w-3xl  max-w-2xl flex items-center justify-center" id="form">
+        <input type="text" id="search" placeholder="Search a Github User" class="w-full block bg-[#ffff] border border-indigo-600 border-opacity-0 rounded-2xl 
+         text-indigo-600 font-medium placeholder:text-black/50 focus:placeholder:text-black/0 p-4 text-base shadow-sm   
+          shadow-indigo-600 cursor-pointer focus:border focus:border-opacity-100 focus:outline-none
+           focus:transition-[300] duration-150 px-4 mb-5 max-w-lg m-4">
+    </form>
+    <main id="main"></main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
+        integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
+        crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

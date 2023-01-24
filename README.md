@@ -1,6 +1,6 @@
-<h1 >Githıb Profile Search</h1>
+<h1 >GitHub  Profile Search</h1>
 
-<p>Welcome to the "Githıb Profile Search" repository. Github search box that works simply using the github user API</p>
+<p>Welcome to the "GitHub  Profile Search" repository. GitHub  search box that works simply using the github user API</p>
 
 
 <h3>Only with HTML and SCSS technology.</h3>
